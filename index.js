@@ -28,10 +28,3 @@ let interval = setInterval(function()
                 })
 
     }, 10_000)
-
-
-desknotify.notify({
-    title: "Nvidia RTX 3080 Avalaibility",
-    message: "he Nvidia RTX 3080 is availaible!",
-    icon: "./notify-icon.png"
-}).then(click => opn("https://www.google.com"))
